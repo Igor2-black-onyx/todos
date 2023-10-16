@@ -1,0 +1,43 @@
+.task {
+    line-height: 2em;
+    background-color: #efffdf;
+}
+.task:nth-child(even) {
+    background-color: white;
+}
+.task:hover {
+    background-color: #dff0a9;
+}
+.completedTask > .text {
+    text-decoration: line-through;
+}
+
+.checkbox {
+    margin-right: 1em;
+}
+.date {
+    font-family: 'Courier New';
+    display: inline-block;
+    margin-right: 0.5em;
+}
+
+.text {
+    white-space: pre-wrap;
+    display: inline-block;
+}
+
+.deleteButton {
+    background-color: #fdfdfd;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 0.9em;
+    line-height: 0.9em;
+    margin-left: 1em;
+    color: #888;
+    padding: 0.1em 0.6em;
+}
+
+.deleteButton:hover {
+    color: #222;
+    background-color: #ff9c9f;
+}

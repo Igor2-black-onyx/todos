@@ -1,0 +1,26 @@
+h1,
+h2,
+label {
+    user-select: none;
+}
+
+h1 {
+    width: 100%;
+    line-height: 2em;
+    background-color: #d0d0ff;
+    padding-left: 0.5em;
+    box-sizing: border-box;
+}
+
+.sortSelectLabel {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.sortSelect {
+    margin-left: 1em;
+}
+
+.listSection {
+    margin: 1em;
+}

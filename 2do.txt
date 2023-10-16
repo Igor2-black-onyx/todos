@@ -1,0 +1,73 @@
+2do list porject
+
+#2  styling
+    V1  gimkhanna font
+    V2  header
+    #3  zebra
+    #4  певдоэлемент для добавления нового элемента
+--    #5  dialog font to exo
+--    #6  выровнить колонку текста
+    #7 no select on headers
+    #8 select element font
+
+
+#9  task add form in modal
+    V1  add css modules
+    V2  add modal component
+    ?#3  scroll on large content
+    #4  prettify loock
+    v5  current date by default
+
+#a  render optimisation
+    v1 second App script run?
+--    #2 useCallbacks
+
+?#b  keyboard support
+    #1 arrow button nav, space/enter to toggle, delete to delete
+
+#c  refactoring
+    #1  eslint
+    V2  prettify (4spaces tab)
+    V3  separate list component
+---    #4  separate new task component
+    V5  separate task component
+    v6  change status by css class
+    v7  separate list data structure operations
+        v1 add
+        v2 delete
+        v3 compareDate
+        v4 compareText
+        v5 toggleStatus
+    V8  set id as number
+--    #9  prettify (')
+
+// done---------------------------------------------------------
+
+V1  initial 2do list from json file
+
+V3  add data field(DF)
+    V1  in form
+    V2  on list
+
+V4  add DF validation mask
+V5  make name field(NF) and DF required
+    x1  required name error text
+    v2  incorrect date must block task addition
+    v3  disable text field variants showing
+
+V6  sort by DF and NF
+    v1 make date text field
+    v2 sort by select
+    v3 add date timestamp representation
+    V4 generate task id
+
+V8  task list
+    V1 confirm {T} deletion
+    x2 make list as table
+    V3 status button to checkobox
+
+stady
+
+#1  portals
+#2  hooks
+#3  css modules
